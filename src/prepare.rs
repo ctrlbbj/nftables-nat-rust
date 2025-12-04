@@ -220,26 +220,6 @@ enum NftablesEntry {
     Unknown(serde_json::Value),
 }
 
-#[derive(Debug, Serialize, Deserialize)]
-struct Metainfo {}
-
-#[derive(Debug, Serialize, Deserialize)]
-struct Table {}
-
-#[derive(Debug, Serialize, Deserialize)]
-struct Chain {}
-
-#[derive(Debug, Serialize, Deserialize)]
-struct Rule {}
-
-#[derive(Debug, Serialize, Deserialize)]
-struct Set {}
-
-#[derive(Debug, Serialize, Deserialize)]
-struct Map {}
-
-#[derive(Debug, Serialize, Deserialize)]
-struct Element {}
 
 #[derive(Default)]
 struct CheckResult {
